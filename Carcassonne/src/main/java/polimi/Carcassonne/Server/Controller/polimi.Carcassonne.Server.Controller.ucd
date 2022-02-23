@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1429,1761" id="polimi.Carcassonne.Server.Controller" metadata="uml2-1.0" initialized="true" scrolledY="841" tag="1000" key="32303037303533312D31303030203734333831382F4F6D6172">
+  <children xsi:type="editmodel:ClassEditModel" name="ClientSocket" location="50,1584" size="122,157" id="polimi.Carcassonne.Server.Controller/ClientSocket" runTimeClassModel="closeAll(),ClientSocket(Ljava.net.Socket;),isConnected(),reciveInput(),socket,getSocket()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="socket" id="polimi.Carcassonne.Server.Controller/ClientSocket#socket"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="90,90">
+      <children xsi:type="editmodel:MethodEditModel" name="ClientSocket" id="polimi.Carcassonne.Server.Controller/ClientSocket#ClientSocket(Ljava.net.Socket;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="closeAll" id="polimi.Carcassonne.Server.Controller/ClientSocket#closeAll()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSocket" id="polimi.Carcassonne.Server.Controller/ClientSocket#getSocket()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isConnected" id="polimi.Carcassonne.Server.Controller/ClientSocket#isConnected()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reciveInput" id="polimi.Carcassonne.Server.Controller/ClientSocket#reciveInput()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.4" name="ProtocolController" location="329,50" size="158,85" id="polimi.Carcassonne.Server.Controller/ProtocolController" runTimeClassModel="ProtocolController(Lpolimi.Carcassonne.Server.IModelController.IModelControllerLogicGame;),reciveCommand(Lpolimi.Carcassonne.Client.Controller.CommandController;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ProtocolController" id="polimi.Carcassonne.Server.Controller/ProtocolController#ProtocolController(Lpolimi.Carcassonne.Server.IModelController.IModelControllerLogicGame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reciveCommand" id="polimi.Carcassonne.Server.Controller/ProtocolController#reciveCommand(Lpolimi.Carcassonne.Client.Controller.CommandController;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.2 //@children.8/@sourceConnections.3 //@children.4/@sourceConnections.2" name="Timer" location="50,1244" size="126,211" id="polimi.Carcassonne.Server.Controller/Timer" runTimeClassModel="getStop(),stop,Timer(IILpolimi.Carcassonne.Server.Controller.IEventTimer;),stop(),run(),getTimepassed(),Timer(ILpolimi.Carcassonne.Server.Controller.IEventTimer;),reset(),timepassed">
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="stop" id="polimi.Carcassonne.Server.Controller/Timer#stop"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="timepassed" id="polimi.Carcassonne.Server.Controller/Timer#timepassed"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,126">
+      <children xsi:type="editmodel:MethodEditModel" name="Timer" id="polimi.Carcassonne.Server.Controller/Timer#Timer(IILpolimi.Carcassonne.Server.Controller.IEventTimer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Timer" id="polimi.Carcassonne.Server.Controller/Timer#Timer(ILpolimi.Carcassonne.Server.Controller.IEventTimer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStop" id="polimi.Carcassonne.Server.Controller/Timer#getStop()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTimepassed" id="polimi.Carcassonne.Server.Controller/Timer#getTimepassed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="polimi.Carcassonne.Server.Controller/Timer#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="polimi.Carcassonne.Server.Controller/Timer#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stop" id="polimi.Carcassonne.Server.Controller/Timer#stop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/Timer-Standard::Call->polimi.Carcassonne.Server.Controller/IEventTimer*polimi.Carcassonne.Server.Controller/Timer-Soyatec::Import->polimi.Carcassonne.Server.Controller/IEventTimer" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,59" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="3,81"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.2" name="GameManager" location="1224,890" size="185,157" id="polimi.Carcassonne.Server.Controller/GameManager" runTimeClassModel="getListOfGame(),listOfGame,clientRequest(Lpolimi.Carcassonne.Server.Connection.IClientConnection;),reinsert(Lpolimi.Carcassonne.Server.Connection.IClientConnection;Ljava.awt.Color;Ljava.lang.String;),GameManager()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="listOfGame" id="polimi.Carcassonne.Server.Controller/GameManager#listOfGame"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numGame" id="polimi.Carcassonne.Server.Controller/GameManager#numGame"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,72">
+      <children xsi:type="editmodel:MethodEditModel" name="GameManager" id="polimi.Carcassonne.Server.Controller/GameManager#GameManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clientRequest" id="polimi.Carcassonne.Server.Controller/GameManager#clientRequest(Lpolimi.Carcassonne.Server.Connection.IClientConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getListOfGame" id="polimi.Carcassonne.Server.Controller/GameManager#getListOfGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reinsert" id="polimi.Carcassonne.Server.Controller/GameManager#reinsert(Lpolimi.Carcassonne.Server.Connection.IClientConnection;Ljava.awt.Color;Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/GameManager-Standard::Call->polimi.Carcassonne.Server.Controller/Game*polimi.Carcassonne.Server.Controller/GameManager-Standard::Instantiate->polimi.Carcassonne.Server.Controller/Game*polimi.Carcassonne.Server.Controller/GameManager-Soyatec::Import->polimi.Carcassonne.Server.Controller/Game" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,124" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="259,175"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Game" location="535,1053" size="259,481" id="polimi.Carcassonne.Server.Controller/Game" runTimeClassModel="isStarted(),Game(Ljava.lang.String;),clientsManager,score(Ljava.util.ArrayList;),start(ILjava.lang.String;Ljava.awt.Color;Lpolimi.Carcassonne.Server.Model.Graph.Box;),leave(Ljava.awt.Color;),start(),lock(),nextTile(Lpolimi.Carcassonne.Server.Model.Graph.Card;),addPlayer(Lpolimi.Carcassonne.Server.Connection.IClientConnection;),endGame(Ljava.util.ArrayList;),startGame(),updateCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;),tick(),rotated(Lpolimi.Carcassonne.Server.Model.Graph.Card;),moveNotValid(),getTimer(),timer,reinsertPlayer(Ljava.awt.Color;),getNumGame(),getClientsManager(),isStarted,turnChanged(Ljava.awt.Color;),unlock()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="236,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="clientsManager" id="polimi.Carcassonne.Server.Controller/Game#clientsManager"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isStarted" id="polimi.Carcassonne.Server.Controller/Game#isStarted"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="timer" id="polimi.Carcassonne.Server.Controller/Game#timer"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,378">
+      <children xsi:type="editmodel:MethodEditModel" name="addPlayer" id="polimi.Carcassonne.Server.Controller/Game#addPlayer(Lpolimi.Carcassonne.Server.Connection.IClientConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endGame" id="polimi.Carcassonne.Server.Controller/Game#endGame(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getClientsManager" id="polimi.Carcassonne.Server.Controller/Game#getClientsManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumGame" id="polimi.Carcassonne.Server.Controller/Game#getNumGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTimer" id="polimi.Carcassonne.Server.Controller/Game#getTimer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isStarted" id="polimi.Carcassonne.Server.Controller/Game#isStarted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="leave" id="polimi.Carcassonne.Server.Controller/Game#leave(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock" id="polimi.Carcassonne.Server.Controller/Game#lock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveNotValid" id="polimi.Carcassonne.Server.Controller/Game#moveNotValid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextTile" id="polimi.Carcassonne.Server.Controller/Game#nextTile(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotated" id="polimi.Carcassonne.Server.Controller/Game#rotated(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="score" id="polimi.Carcassonne.Server.Controller/Game#score(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="polimi.Carcassonne.Server.Controller/Game#start(ILjava.lang.String;Ljava.awt.Color;Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="polimi.Carcassonne.Server.Controller/Game#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startGame" id="polimi.Carcassonne.Server.Controller/Game#startGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tick" id="polimi.Carcassonne.Server.Controller/Game#tick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="turnChanged" id="polimi.Carcassonne.Server.Controller/Game#turnChanged(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unlock" id="polimi.Carcassonne.Server.Controller/Game#unlock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCard" id="polimi.Carcassonne.Server.Controller/Game#updateCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Game" id="polimi.Carcassonne.Server.Controller/Game#Game(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reinsertPlayer" id="polimi.Carcassonne.Server.Controller/Game#reinsertPlayer(Ljava.awt.Color;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.8/@sourceConnections.0 //@children.6/@sourceConnections.0" autoLocated="true" id="polimi.Carcassonne.Server.Controller/IEventTimer&lt;-polimi.Carcassonne.Server.Controller/Game" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="228,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,81" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame&lt;-polimi.Carcassonne.Server.Controller/Game" source="//@children.4" target="//@children.7" targetEnd="//@children.4/@sourceConnections.1/@children.1" sourceEnd="//@children.4/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,275"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/Game-Standard::Call->polimi.Carcassonne.Server.Controller/Timer*polimi.Carcassonne.Server.Controller/Game-Standard::Instantiate->polimi.Carcassonne.Server.Controller/Timer*polimi.Carcassonne.Server.Controller/Game-Soyatec::Import->polimi.Carcassonne.Server.Controller/Timer" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,296" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,105"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/Game-Soyatec::Implement->polimi.Carcassonne.Server.Controller/IEventTimer" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="238,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/Game-Soyatec::Implement->polimi.Carcassonne.Server.IModelView/IEventLogicGame" source="//@children.4" target="//@children.7" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,275"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.2/@sourceConnections.0 //@children.6/@sourceConnections.1 //@children.8/@sourceConnections.1 //@children.4/@sourceConnections.3" name="IEventTimer" location="843,728" size="118,81" id="polimi.Carcassonne.Server.Controller/IEventTimer" runTimeClassModel="tick()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="46,18">
+      <children xsi:type="editmodel:MethodEditModel" name="tick" id="polimi.Carcassonne.Server.Controller/IEventTimer#tick()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TimerTest" location="1063,1053" size="104,139" id="polimi.Carcassonne.Server.Controller/TimerTest" runTimeClassModel="tick(),stopTest(),startTest(),resetTest(),setUp()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,90">
+      <children xsi:type="editmodel:MethodEditModel" name="resetTest" id="polimi.Carcassonne.Server.Controller/TimerTest#resetTest()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUp" id="polimi.Carcassonne.Server.Controller/TimerTest#setUp()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startTest" id="polimi.Carcassonne.Server.Controller/TimerTest#startTest()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stopTest" id="polimi.Carcassonne.Server.Controller/TimerTest#stopTest()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tick" id="polimi.Carcassonne.Server.Controller/TimerTest#tick()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/IEventTimer&lt;-polimi.Carcassonne.Server.Controller/TimerTest" source="//@children.6" target="//@children.4/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/TimerTest-Soyatec::Implement->polimi.Carcassonne.Server.Controller/IEventTimer" source="//@children.6" target="//@children.5" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/TimerTest-Standard::Call->polimi.Carcassonne.Server.Controller/Timer*polimi.Carcassonne.Server.Controller/TimerTest-Standard::Instantiate->polimi.Carcassonne.Server.Controller/Timer*polimi.Carcassonne.Server.Controller/TimerTest-Soyatec::Import->polimi.Carcassonne.Server.Controller/Timer" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,81" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,91"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.4/@sourceConnections.4" name="IEventLogicGame" location="559,728" size="211,275" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame" runTimeClassModel="updateCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;),score(Ljava.util.ArrayList;),start(ILjava.lang.String;Ljava.awt.Color;Lpolimi.Carcassonne.Server.Model.Graph.Box;),rotated(Lpolimi.Carcassonne.Server.Model.Graph.Card;),moveNotValid(),leave(Ljava.awt.Color;),nextTile(Lpolimi.Carcassonne.Server.Model.Graph.Card;),lock(),unlock(),endGame(Ljava.util.ArrayList;),turnChanged(Ljava.awt.Color;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,198">
+      <children xsi:type="editmodel:MethodEditModel" name="endGame" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#endGame(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="leave" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#leave(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#lock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveNotValid" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#moveNotValid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextTile" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#nextTile(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotated" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#rotated(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="score" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#score(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#start(ILjava.lang.String;Ljava.awt.Color;Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="turnChanged" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#turnChanged(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unlock" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#unlock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCard" id="polimi.Carcassonne.Server.IModelView/IEventLogicGame#updateCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ClientSocketConnection" location="824,1053" size="209,423" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection" runTimeClassModel="start(ILjava.lang.String;Ljava.awt.Color;Lpolimi.Carcassonne.Server.Model.Graph.Box;),score(Ljava.util.ArrayList;),setGame(Lpolimi.Carcassonne.Server.IModelController.IModelControllerLogicGame;),leave(Ljava.awt.Color;),lock,nextTile(Lpolimi.Carcassonne.Server.Model.Graph.Card;),lock(),game,endGame(Ljava.util.ArrayList;),updateCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;),write(Ljava.lang.String;),tick(),rotated(Lpolimi.Carcassonne.Server.Model.Graph.Card;),ClientSocketConnection(Lpolimi.Carcassonne.Server.Controller.GameManager;Ljava.net.Socket;),moveNotValid(),timer,run(),setTimer(),unlock(),turnChanged(Ljava.awt.Color;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="181,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="game" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#game"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lock" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#lock"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="timer" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#timer"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="143,306">
+      <children xsi:type="editmodel:MethodEditModel" name="ClientSocketConnection" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#ClientSocketConnection(Lpolimi.Carcassonne.Server.Controller.GameManager;Ljava.net.Socket;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endGame" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#endGame(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="leave" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#leave(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#lock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveNotValid" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#moveNotValid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextTile" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#nextTile(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotated" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#rotated(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="score" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#score(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGame" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#setGame(Lpolimi.Carcassonne.Server.IModelController.IModelControllerLogicGame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTimer" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#setTimer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#start(ILjava.lang.String;Ljava.awt.Color;Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tick" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#tick()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="turnChanged" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#turnChanged(Ljava.awt.Color;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unlock" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#unlock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCard" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#updateCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection#write(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Controller/IEventTimer&lt;-polimi.Carcassonne.Server.Connection/ClientSocketConnection" source="//@children.8" target="//@children.4/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection-Soyatec::Implement->polimi.Carcassonne.Server.Controller/IEventTimer" source="//@children.8" target="//@children.5" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,81"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection-Standard::Call->polimi.Carcassonne.Server.Controller/GameManager*polimi.Carcassonne.Server.Connection/ClientSocketConnection-Soyatec::Import->polimi.Carcassonne.Server.Controller/GameManager" source="//@children.8" target="//@children.3" targetEnd="//@children.8/@sourceConnections.2/@children.2" label="//@children.8/@sourceConnections.2/@children.0" sourceEnd="//@children.8/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="209,131" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,148"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection-Standard::Instantiate->polimi.Carcassonne.Server.Controller/Timer*polimi.Carcassonne.Server.Connection/ClientSocketConnection-Soyatec::Import->polimi.Carcassonne.Server.Controller/Timer" source="//@children.8" target="//@children.2" targetEnd="//@children.8/@sourceConnections.3/@children.2" label="//@children.8/@sourceConnections.3/@children.0" sourceEnd="//@children.8/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,296" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,105"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Connection/ClientSocketConnection-Standard::Call->polimi.Carcassonne.Server.Controller/ProtocolController*polimi.Carcassonne.Server.Connection/ClientSocketConnection-Standard::Instantiate->polimi.Carcassonne.Server.Controller/ProtocolController*polimi.Carcassonne.Server.Connection/ClientSocketConnection-Soyatec::Import->polimi.Carcassonne.Server.Controller/ProtocolController" source="//@children.8" target="//@children.1" targetEnd="//@children.8/@sourceConnections.4/@children.2" label="//@children.8/@sourceConnections.4/@children.0" sourceEnd="//@children.8/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="98,85"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="841,829" id="polimi.Carcassonne.Server.Model.Algorithm" metadata="uml2-1.0" initialized="true" scrolledY="35" tag="1000" key="32303037303533312D31303030203734333831382F4F6D6172">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="Explorer" location="270,165" size="169,121" id="polimi.Carcassonne.Server.Model.Algorithm/Explorer" runTimeClassModel="equals(Ljava.lang.Object;),hashCode(),getConstruction(),construction">
+    <children xsi:type="editmodel:CompartmentEditModel" size="146,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="construction" id="polimi.Carcassonne.Server.Model.Algorithm/Explorer#construction"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,54">
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="polimi.Carcassonne.Server.Model.Algorithm/Explorer#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConstruction" location="3,78" id="polimi.Carcassonne.Server.Model.Algorithm/Explorer#getConstruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="polimi.Carcassonne.Server.Model.Algorithm/Explorer#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/Explorer-Standard::Call->polimi.Carcassonne.Server.Model.Algorithm/Construction*polimi.Carcassonne.Server.Model.Algorithm/Explorer-Soyatec::Import->polimi.Carcassonne.Server.Model.Algorithm/Construction" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="153,121" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ExplorerManager" location="30,510" size="202,121" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager" runTimeClassModel="getOpenedConstruction(),clearClosedConstructionBuffer(),ExplorerManager(),manageExplorersBox(Lpolimi.Carcassonne.Server.Model.Graph.Box;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,72">
+      <children xsi:type="editmodel:MethodEditModel" name="ExplorerManager" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager#ExplorerManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearClosedConstructionBuffer" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager#clearClosedConstructionBuffer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOpenedConstruction" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager#getOpenedConstruction()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="manageExplorersBox" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager#manageExplorersBox(Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Standard::Call->polimi.Carcassonne.Server.Model.Algorithm/Construction*polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Soyatec::Import->polimi.Carcassonne.Server.Model.Algorithm/Construction" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,194"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Standard::Call->polimi.Carcassonne.Server.Model.Algorithm/Explorer*polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Standard::Instantiate->polimi.Carcassonne.Server.Model.Algorithm/Explorer*polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Soyatec::Import->polimi.Carcassonne.Server.Model.Algorithm/Explorer" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Call, Import»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,121"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Standard::Instantiate->polimi.Carcassonne.Server.Model.Algorithm/Street*polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Soyatec::Import->polimi.Carcassonne.Server.Model.Algorithm/Street" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,102" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,14"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Standard::Instantiate->polimi.Carcassonne.Server.Model.Algorithm/City*polimi.Carcassonne.Server.Model.Algorithm/ExplorerManager-Soyatec::Import->polimi.Carcassonne.Server.Model.Algorithm/City" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.3/@children.2" label="//@children.1/@sourceConnections.3/@children.0" sourceEnd="//@children.1/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="202,90" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Marker" location="666,580" size="155,229" id="polimi.Carcassonne.Server.Model.Algorithm/Marker" runTimeClassModel="getCard(),connection,Marker(Lpolimi.Carcassonne.Server.Model.Player;),player,setConnection(Lpolimi.Carcassonne.Server.Model.Graph.Connection;),getConnection(),setCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;),getPlayer(),toString(),removeConnection()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="connection" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#connection"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="player" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#player"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,144">
+      <children xsi:type="editmodel:MethodEditModel" name="Marker" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#Marker(Lpolimi.Carcassonne.Server.Model.Player;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCard" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#getCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getConnection" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#getConnection()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#getPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeConnection" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#removeConnection()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCard" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#setCard(Lpolimi.Carcassonne.Server.Model.Graph.Box;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setConnection" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#setConnection(Lpolimi.Carcassonne.Server.Model.Graph.Connection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="polimi.Carcassonne.Server.Model.Algorithm/Marker#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.4/@sourceConnections.1 //@children.5/@sourceConnections.1" name="Construction" location="409,367" size="176,247" id="polimi.Carcassonne.Server.Model.Algorithm/Construction" runTimeClassModel="Construction(I),getPoint(),addMarker(Lpolimi.Carcassonne.Server.Model.Algorithm.Marker;),numOfBoxes,markers,getID(),isClosed(),getNumOfBoxes(),hashCode(),equals(Ljava.lang.Object;),getMarkers()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="markers" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#markers"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="numOfBoxes" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#numOfBoxes"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Construction" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#Construction(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addMarker" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#addMarker(Lpolimi.Carcassonne.Server.Model.Algorithm.Marker;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarkers" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#getMarkers()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumOfBoxes" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#getNumOfBoxes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPoint" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#getPoint()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isClosed" id="polimi.Carcassonne.Server.Model.Algorithm/Construction#isClosed()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/Construction-Soyatec::Import->polimi.Carcassonne.Server.Model.Algorithm/Marker" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,229" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.2" name="Street" location="391,664" size="91,67" id="polimi.Carcassonne.Server.Model.Algorithm/Street" runTimeClassModel="getPoint()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getPoint" id="polimi.Carcassonne.Server.Model.Algorithm/Street#getPoint()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/Construction&lt;-polimi.Carcassonne.Server.Model.Algorithm/Street" source="//@children.4" target="//@children.5/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/Street-Standard::Derive->polimi.Carcassonne.Server.Model.Algorithm/Construction" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,247"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.3" name="City" location="512,664" size="91,67" id="polimi.Carcassonne.Server.Model.Algorithm/City" runTimeClassModel="getPoint()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="getPoint" id="polimi.Carcassonne.Server.Model.Algorithm/City#getPoint()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/Construction&lt;-polimi.Carcassonne.Server.Model.Algorithm/City" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,247" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model.Algorithm/City-Standard::Derive->polimi.Carcassonne.Server.Model.Algorithm/Construction" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="43,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="139,247"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

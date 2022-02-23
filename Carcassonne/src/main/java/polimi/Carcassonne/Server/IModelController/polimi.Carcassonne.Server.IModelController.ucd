@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="845,642" id="polimi.Carcassonne.Server.IModelController" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030203734333831382F4F6D6172">
+  <children xsi:type="editmodel:ClassEditModel" name="GameLogic" location="69,289" size="183,333" id="polimi.Carcassonne.Server.Model/GameLogic">
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="nextCard" id="polimi.Carcassonne.Server.Model/GameLogic#nextCard"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="passInsertCard" id="polimi.Carcassonne.Server.Model/GameLogic#passInsertCard"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,234">
+      <children xsi:type="editmodel:MethodEditModel" name="GameLogic" id="polimi.Carcassonne.Server.Model/GameLogic#GameLogic()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GameLogic" id="polimi.Carcassonne.Server.Model/GameLogic#GameLogic(ILjava.lang.String;Lpolimi.Carcassonne.Server.IModelView.IEventLogicGame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNextCard" id="polimi.Carcassonne.Server.Model/GameLogic#getNextCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassInsertCard" id="polimi.Carcassonne.Server.Model/GameLogic#getPassInsertCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertPosition" id="polimi.Carcassonne.Server.Model/GameLogic#insertPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock" id="polimi.Carcassonne.Server.Model/GameLogic#lock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peekCard" id="polimi.Carcassonne.Server.Model/GameLogic#peekCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putMarker" id="polimi.Carcassonne.Server.Model/GameLogic#putMarker(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotateNextCard" id="polimi.Carcassonne.Server.Model/GameLogic#rotateNextCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNextCard" id="polimi.Carcassonne.Server.Model/GameLogic#setNextCard(Lpolimi.Carcassonne.Server.Model.Graph.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPassInsertCard" id="polimi.Carcassonne.Server.Model/GameLogic#setPassInsertCard(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="polimi.Carcassonne.Server.Model/GameLogic#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unlock" id="polimi.Carcassonne.Server.Model/GameLogic#unlock()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame&lt;-polimi.Carcassonne.Server.Model/GameLogic" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,189"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="polimi.Carcassonne.Server.Model/GameLogic-Soyatec::Implement->polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,189"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1" name="IModelControllerLogicGame" location="50,50" size="221,189" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,126">
+      <children xsi:type="editmodel:MethodEditModel" name="insertPosition" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#insertPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lock" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#lock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="peekCard" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#peekCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="putMarker" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#putMarker(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rotateNextCard" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#rotateNextCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#start()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unlock" id="polimi.Carcassonne.Server.IModelController/IModelControllerLogicGame#unlock()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

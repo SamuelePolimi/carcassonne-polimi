@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1751,1384" id="polimi.Carcassonne.Client.View.TextView" metadata="uml2-1.0" initialized="true" zoom="0.5" scrolledY="98" tag="1000" key="32303037303533312D31303030203734333831382F4F6D6172">
+  <children xsi:type="editmodel:ClassEditModel" name="InsertThread" location="828,1004" size="122,85" id="polimi.Carcassonne.Client.View.TextView/InsertThread" runTimeClassModel="InsertThread(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;Lpolimi.Carcassonne.Client.Connection.IViewConnection;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="91,36">
+      <children xsi:type="editmodel:MethodEditModel" name="InsertThread" id="polimi.Carcassonne.Client.View.TextView/InsertThread#InsertThread(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;Lpolimi.Carcassonne.Client.Connection.IViewConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="polimi.Carcassonne.Client.View.TextView/InsertThread#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MarkerThread" location="647,1004" size="131,85" id="polimi.Carcassonne.Client.View.TextView/MarkerThread" runTimeClassModel="MarkerThread(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;Lpolimi.Carcassonne.Client.Connection.IViewConnection;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="97,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MarkerThread" id="polimi.Carcassonne.Client.View.TextView/MarkerThread#MarkerThread(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;Lpolimi.Carcassonne.Client.Connection.IViewConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="polimi.Carcassonne.Client.View.TextView/MarkerThread#run()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TextRenderize" location="463,1004" size="134,121" id="polimi.Carcassonne.Client.View.TextView/TextRenderize" runTimeClassModel="clear(),setCharAt(IIC),TextRenderize(II),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,72">
+      <children xsi:type="editmodel:MethodEditModel" name="TextRenderize" id="polimi.Carcassonne.Client.View.TextView/TextRenderize#TextRenderize(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="polimi.Carcassonne.Client.View.TextView/TextRenderize#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCharAt" id="polimi.Carcassonne.Client.View.TextView/TextRenderize#setCharAt(IIC)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="polimi.Carcassonne.Client.View.TextView/TextRenderize#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TableTextWindow" location="1551,527" size="156,175" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow" runTimeClassModel="updateCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;),refresh(),TableTextWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),insertNewCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;),getNome(),setNome(Ljava.lang.String;),reSet(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,126">
+      <children xsi:type="editmodel:MethodEditModel" name="TableTextWindow" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#TableTextWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNome" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#getNome()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertNewCard" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#insertNewCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#refresh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNome" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#setNome(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCard" id="polimi.Carcassonne.Client.View.TextView/TableTextWindow#updateCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/TableTextWindow" source="//@children.3" target="//@children.7/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.IModelView/IEventTable&lt;-polimi.Carcassonne.Client.View.TextView/TableTextWindow" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.1/@children.1" sourceEnd="//@children.3/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,113"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ListOfPlayerTextWindow" location="304,527" size="230,139" id="polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow" runTimeClassModel="refresh(),players,list,ListOfPlayerTextWindow(Ljava.util.ArrayList;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),reSet(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="207,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="list" id="polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow#list"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="players" id="polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow#players"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="149,54">
+      <children xsi:type="editmodel:MethodEditModel" name="ListOfPlayerTextWindow" id="polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow#ListOfPlayerTextWindow(Ljava.util.ArrayList;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow#refresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/ListOfPlayerTextWindow" source="//@children.4" target="//@children.7/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="115,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.1" name="IEventTable" location="1526,50" size="205,113" id="polimi.Carcassonne.Client.IModelView/IEventTable" runTimeClassModel="updateCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;),insertNewCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,36">
+      <children xsi:type="editmodel:MethodEditModel" name="insertNewCard" id="polimi.Carcassonne.Client.IModelView/IEventTable#insertNewCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateCard" id="polimi.Carcassonne.Client.IModelView/IEventTable#updateCard(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PlayerTextWindow" location="1161,527" size="162,175" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow" runTimeClassModel="refresh(),PlayerTextWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewPlayer;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),beingCurrentPlayer(),pointsChanged(),markerChanged(),beingNotCurrentPlayer(),reSet(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,126">
+      <children xsi:type="editmodel:MethodEditModel" name="PlayerTextWindow" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#PlayerTextWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewPlayer;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="beingCurrentPlayer" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#beingCurrentPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="beingNotCurrentPlayer" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#beingNotCurrentPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="markerChanged" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#markerChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pointsChanged" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#pointsChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/PlayerTextWindow#refresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/PlayerTextWindow" source="//@children.6" target="//@children.7/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.IModelView/IEventClientPlayer&lt;-polimi.Carcassonne.Client.View.TextView/PlayerTextWindow" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.1/@children.1" sourceEnd="//@children.6/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,28" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="205,149"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CardTextWindow" location="980,527" size="151,121" id="polimi.Carcassonne.Client.View.TextView/CardTextWindow" runTimeClassModel="CardTextWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),refresh(),reSet(Ljava.lang.Object;),changed()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,72">
+      <children xsi:type="editmodel:MethodEditModel" name="CardTextWindow" id="polimi.Carcassonne.Client.View.TextView/CardTextWindow#CardTextWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewCard;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="changed" id="polimi.Carcassonne.Client.View.TextView/CardTextWindow#changed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/CardTextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/CardTextWindow#refresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.4/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.15/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.8/@sourceConnections.0" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/CardTextWindow" source="//@children.7" target="//@children.12" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,427" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.IModelView/IEventClientCard&lt;-polimi.Carcassonne.Client.View.TextView/CardTextWindow" source="//@children.7" target="//@children.14" targetEnd="//@children.7/@sourceConnections.1/@children.1" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,9" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,95"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="VerticalStringTextWindow" location="743,527" size="207,103" id="polimi.Carcassonne.Client.View.TextView/VerticalStringTextWindow" runTimeClassModel="refresh(),VerticalStringTextWindow(Ljava.lang.String;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),reSet(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,54">
+      <children xsi:type="editmodel:MethodEditModel" name="VerticalStringTextWindow" id="polimi.Carcassonne.Client.View.TextView/VerticalStringTextWindow#VerticalStringTextWindow(Ljava.lang.String;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/VerticalStringTextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/VerticalStringTextWindow#refresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/VerticalStringTextWindow" source="//@children.8" target="//@children.7/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="103,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.6/@sourceConnections.1" name="IEventClientPlayer" location="466,50" size="205,149" id="polimi.Carcassonne.Client.IModelView/IEventClientPlayer" runTimeClassModel="beingCurrentPlayer(),pointsChanged(),markerChanged(),beingNotCurrentPlayer()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,72">
+      <children xsi:type="editmodel:MethodEditModel" name="beingCurrentPlayer" id="polimi.Carcassonne.Client.IModelView/IEventClientPlayer#beingCurrentPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="beingNotCurrentPlayer" id="polimi.Carcassonne.Client.IModelView/IEventClientPlayer#beingNotCurrentPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="markerChanged" id="polimi.Carcassonne.Client.IModelView/IEventClientPlayer#markerChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pointsChanged" id="polimi.Carcassonne.Client.IModelView/IEventClientPlayer#pointsChanged()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="HorizontalStringTextWindow" location="50,527" size="224,103" id="polimi.Carcassonne.Client.View.TextView/HorizontalStringTextWindow" runTimeClassModel="refresh(),HorizontalStringTextWindow(Ljava.lang.String;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),reSet(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,54">
+      <children xsi:type="editmodel:MethodEditModel" name="HorizontalStringTextWindow" id="polimi.Carcassonne.Client.View.TextView/HorizontalStringTextWindow#HorizontalStringTextWindow(Ljava.lang.String;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/HorizontalStringTextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/HorizontalStringTextWindow#refresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/HorizontalStringTextWindow" source="//@children.10" target="//@children.7/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="112,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.13/@sourceConnections.1" name="IEventGameState" location="1291,50" size="205,239" id="polimi.Carcassonne.Client.IModelView/IEventGameState" runTimeClassModel="endGame(),markerOrPass(),insertCard(Lpolimi.Carcassonne.Client.Model.ClientCard;),updateNext(Lpolimi.Carcassonne.Client.Model.ClientCard;),errorInsert(),updatePlayers(),changeTurn(Lpolimi.Carcassonne.Client.Model.ClientPlayer;),tableDimensionChanged(),yourTurn()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,162">
+      <children xsi:type="editmodel:MethodEditModel" name="changeTurn" id="polimi.Carcassonne.Client.IModelView/IEventGameState#changeTurn(Lpolimi.Carcassonne.Client.Model.ClientPlayer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endGame" id="polimi.Carcassonne.Client.IModelView/IEventGameState#endGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="errorInsert" id="polimi.Carcassonne.Client.IModelView/IEventGameState#errorInsert()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertCard" id="polimi.Carcassonne.Client.IModelView/IEventGameState#insertCard(Lpolimi.Carcassonne.Client.Model.ClientCard;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="markerOrPass" id="polimi.Carcassonne.Client.IModelView/IEventGameState#markerOrPass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tableDimensionChanged" id="polimi.Carcassonne.Client.IModelView/IEventGameState#tableDimensionChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateNext" id="polimi.Carcassonne.Client.IModelView/IEventGameState#updateNext(Lpolimi.Carcassonne.Client.Model.ClientCard;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updatePlayers" id="polimi.Carcassonne.Client.IModelView/IEventGameState#updatePlayers()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="yourTurn" id="polimi.Carcassonne.Client.IModelView/IEventGameState#yourTurn()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="TextWindow" location="50,50" size="151,427" id="polimi.Carcassonne.Client.View.TextView/TextWindow" runTimeClassModel="setX(I),renderize(),width,insertTextWindow(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;),setY(I),reSet(Ljava.lang.Object;),toRefresh(),refreshed(),refresh(),insertToRight(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;I),insertToBottom(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;I),setHeight(I),getHeight(),height,getMyTextRenderize(),insertToBottom(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;),toRefresh,insertToRight(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;),setWidth(I),getWidth(),TextWindow(Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;IIII)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="height" id="polimi.Carcassonne.Client.View.TextView/TextWindow#height"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="toRefresh" id="polimi.Carcassonne.Client.View.TextView/TextWindow#toRefresh"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="polimi.Carcassonne.Client.View.TextView/TextWindow#width"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,324">
+      <children xsi:type="editmodel:MethodEditModel" name="TextWindow" id="polimi.Carcassonne.Client.View.TextView/TextWindow#TextWindow(Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHeight" id="polimi.Carcassonne.Client.View.TextView/TextWindow#getHeight()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMyTextRenderize" id="polimi.Carcassonne.Client.View.TextView/TextWindow#getMyTextRenderize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getWidth" id="polimi.Carcassonne.Client.View.TextView/TextWindow#getWidth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertTextWindow" id="polimi.Carcassonne.Client.View.TextView/TextWindow#insertTextWindow(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertToBottom" id="polimi.Carcassonne.Client.View.TextView/TextWindow#insertToBottom(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertToBottom" id="polimi.Carcassonne.Client.View.TextView/TextWindow#insertToBottom(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertToRight" id="polimi.Carcassonne.Client.View.TextView/TextWindow#insertToRight(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertToRight" id="polimi.Carcassonne.Client.View.TextView/TextWindow#insertToRight(Lpolimi.Carcassonne.Client.View.TextView.TextWindow;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/TextWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/TextWindow#refresh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refreshed" id="polimi.Carcassonne.Client.View.TextView/TextWindow#refreshed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="renderize" id="polimi.Carcassonne.Client.View.TextView/TextWindow#renderize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHeight" id="polimi.Carcassonne.Client.View.TextView/TextWindow#setHeight(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setWidth" id="polimi.Carcassonne.Client.View.TextView/TextWindow#setWidth(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setX" id="polimi.Carcassonne.Client.View.TextView/TextWindow#setX(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setY" id="polimi.Carcassonne.Client.View.TextView/TextWindow#setY(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toRefresh" id="polimi.Carcassonne.Client.View.TextView/TextWindow#toRefresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TotalWindow" location="1353,527" size="168,427" id="polimi.Carcassonne.Client.View.TextView/TotalWindow" runTimeClassModel="insertCard(Lpolimi.Carcassonne.Client.Model.ClientCard;),setNome(Ljava.lang.String;),errorInsert(),setEvent(Lpolimi.Carcassonne.Client.View.TextView.IEventTotalView;),reSet(Ljava.lang.Object;),onlineModality,changeTurn(Lpolimi.Carcassonne.Client.Model.ClientPlayer;),yourTurn(),tableDimensionChanged(),getName(),endGame(),isOnlineModality(),refresh(),markerOrPass(),setOnlineModality(Z),event,name,updateNext(Lpolimi.Carcassonne.Client.Model.ClientCard;),TotalWindow(Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),TotalWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II),updatePlayers()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="event" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#event"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="onlineModality" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#onlineModality"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,324">
+      <children xsi:type="editmodel:MethodEditModel" name="TotalWindow" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#TotalWindow(Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TotalWindow" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#TotalWindow(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="changeTurn" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#changeTurn(Lpolimi.Carcassonne.Client.Model.ClientPlayer;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endGame" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#endGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="errorInsert" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#errorInsert()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertCard" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#insertCard(Lpolimi.Carcassonne.Client.Model.ClientCard;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isOnlineModality" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#isOnlineModality()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="markerOrPass" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#markerOrPass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#refresh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setEvent" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#setEvent(Lpolimi.Carcassonne.Client.View.TextView.IEventTotalView;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNome" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#setNome(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOnlineModality" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#setOnlineModality(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tableDimensionChanged" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#tableDimensionChanged()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateNext" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#updateNext(Lpolimi.Carcassonne.Client.Model.ClientCard;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updatePlayers" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#updatePlayers()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="yourTurn" id="polimi.Carcassonne.Client.View.TextView/TotalWindow#yourTurn()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/TotalWindow" source="//@children.13" target="//@children.7/@sourceConnections.0" targetEnd="//@children.13/@sourceConnections.0/@children.1" sourceEnd="//@children.13/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.IModelView/IEventGameState&lt;-polimi.Carcassonne.Client.View.TextView/TotalWindow" source="//@children.13" target="//@children.11" targetEnd="//@children.13/@sourceConnections.1/@children.1" sourceEnd="//@children.13/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="133,239"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.1" name="IEventClientCard" location="231,50" size="205,95" id="polimi.Carcassonne.Client.IModelView/IEventClientCard" runTimeClassModel="changed()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="72,18">
+      <children xsi:type="editmodel:MethodEditModel" name="changed" id="polimi.Carcassonne.Client.IModelView/IEventClientCard#changed()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TextTitleWindow" location="564,527" size="149,103" id="polimi.Carcassonne.Client.View.TextView/TextTitleWindow" runTimeClassModel="refresh(),reSet(Ljava.lang.Object;),TextTitleWindow(Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,54">
+      <children xsi:type="editmodel:MethodEditModel" name="TextTitleWindow" id="polimi.Carcassonne.Client.View.TextView/TextTitleWindow#TextTitleWindow(Lpolimi.Carcassonne.Client.View.TextView.TextRenderize;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/TextTitleWindow#reSet(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="refresh" id="polimi.Carcassonne.Client.View.TextView/TextTitleWindow#refresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/TextWindow&lt;-polimi.Carcassonne.Client.View.TextView/TextTitleWindow" source="//@children.15" target="//@children.7/@sourceConnections.0" targetEnd="//@children.15/@sourceConnections.0/@children.1" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.18/@sourceConnections.1" name="IView" location="50,1004" size="175,113" id="polimi.Carcassonne.Client.View/IView" runTimeClassModel="setIViewConnection(Lpolimi.Carcassonne.Client.Connection.IViewConnection;),setIModelView(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,36">
+      <children xsi:type="editmodel:MethodEditModel" name="setIModelView" id="polimi.Carcassonne.Client.View/IView#setIModelView(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIViewConnection" id="polimi.Carcassonne.Client.View/IView#setIViewConnection(Lpolimi.Carcassonne.Client.Connection.IViewConnection;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.18/@sourceConnections.0" name="IEventTotalView" location="255,1004" size="158,117" id="polimi.Carcassonne.Client.View.TextView/IEventTotalView" runTimeClassModel="toInsertOrRotate(),toWaitAndRefresh(),toInsertMarkerOrPass()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,54">
+      <children xsi:type="editmodel:MethodEditModel" name="toInsertMarkerOrPass" id="polimi.Carcassonne.Client.View.TextView/IEventTotalView#toInsertMarkerOrPass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toInsertOrRotate" id="polimi.Carcassonne.Client.View.TextView/IEventTotalView#toInsertOrRotate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toWaitAndRefresh" id="polimi.Carcassonne.Client.View.TextView/IEventTotalView#toWaitAndRefresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="View" location="156,1171" size="158,193" id="polimi.Carcassonne.Client.View.TextView/View" runTimeClassModel="setIViewConnection(Lpolimi.Carcassonne.Client.Connection.IViewConnection;),toInsertOrRotate(),View(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;),setIModelView(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;),View(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;Lpolimi.Carcassonne.Client.Connection.IViewConnection;),toWaitAndRefresh(),reSet(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;),toInsertMarkerOrPass()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,144">
+      <children xsi:type="editmodel:MethodEditModel" name="View" id="polimi.Carcassonne.Client.View.TextView/View#View(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="View" id="polimi.Carcassonne.Client.View.TextView/View#View(Lpolimi.Carcassonne.Client.View.TextView.TotalWindow;Lpolimi.Carcassonne.Client.Connection.IViewConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reSet" id="polimi.Carcassonne.Client.View.TextView/View#reSet(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIModelView" id="polimi.Carcassonne.Client.View.TextView/View#setIModelView(Lpolimi.Carcassonne.Client.IModelView.IModelViewGameState;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIViewConnection" id="polimi.Carcassonne.Client.View.TextView/View#setIViewConnection(Lpolimi.Carcassonne.Client.Connection.IViewConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toInsertMarkerOrPass" id="polimi.Carcassonne.Client.View.TextView/View#toInsertMarkerOrPass()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toInsertOrRotate" id="polimi.Carcassonne.Client.View.TextView/View#toInsertOrRotate()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toWaitAndRefresh" id="polimi.Carcassonne.Client.View.TextView/View#toWaitAndRefresh()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View.TextView/IEventTotalView&lt;-polimi.Carcassonne.Client.View.TextView/View" source="//@children.18" target="//@children.17" targetEnd="//@children.18/@sourceConnections.0/@children.1" sourceEnd="//@children.18/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,117"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="polimi.Carcassonne.Client.View/IView&lt;-polimi.Carcassonne.Client.View.TextView/View" source="//@children.18" target="//@children.16" targetEnd="//@children.18/@sourceConnections.1/@children.1" sourceEnd="//@children.18/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="34,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,113"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
